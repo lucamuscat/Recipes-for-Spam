@@ -1,8 +1,7 @@
-from scraper import extract_valid_links, extract_steps_from_recipes
+from scraper import Scraper 
+from random import randint
 website_url = 'https://www.bbcgoodfood.com/recipes/collection/gordon-ramsay'
+scraper = Scraper(website_url)
+recipes = list(scraper.extract_recipes_from_links(scraper.extract_valid_links()))
 
-recipes = extract_steps_from_recipes(extract_valid_links(url=website_url))
-text_dump = open('recipe_dump.txt','w')
-for i in recipes:
-    print(i)
 
