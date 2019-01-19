@@ -67,4 +67,3 @@ class Scraper:
         file_info = os.stat(path_to_file)
         modification_time = file_info.st_mtime
         return modification_time
-
