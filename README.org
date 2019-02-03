@@ -1,0 +1,4 @@
+* Recipes-for-Spam
+** What is Recipes-for-Spam?
+   Recipes-for-Spam is a small script which scrapes a cooking website for all of Gordon Ramsay's Recipes and loads extracts from said recipes to the clipboard whenever CTRL+V is pressed. 
+

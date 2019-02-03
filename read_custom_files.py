@@ -10,7 +10,7 @@ class Read_Custom_Files:
 		else:
 			self.file_names = self.get_file_names_in_dirs()
 			
-			
+	
 	def get_file_names_in_dirs(self):
 		dirs = os.listdir()
 		for x in dirs:
